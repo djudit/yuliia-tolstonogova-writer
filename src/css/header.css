@@ -5,6 +5,13 @@ header {
   padding-top: 20px;
 }
 
+@media (max-width: 1199.98px) {
+  header {
+    background-image: none;
+    padding: 20px 0;
+  }
+}
+
 .header-social {
   display: flex;
   gap: 20px;
