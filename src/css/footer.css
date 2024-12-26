@@ -1,5 +1,5 @@
 footer {
-  background-color: #5a194c;
+  background-color: var(--dark-color);
   padding: 20px 0;
 }
 
@@ -17,9 +17,12 @@ footer {
 
 .footer-author {
   font-size: 10px;
-  color: #d9cfe7;
+  color: var(--light-color);
 }
 
 .footer-link {
   font-weight: 700;
+}
+.footer-link:hover {
+  color: var(--title-color);
 }
